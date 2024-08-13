@@ -1,0 +1,15 @@
+# Git
+.git
+.gitignore
+
+# Docker
+.docker
+
+# Python : Exclude pycache because may see issue because your OS vs container OS
+app/__pycache__/
+app/*/__pycache__/
+app/*/*/__pycache__/
+app/*/*/*/__pycache__/
+.env/
+.venv/
+venv/
